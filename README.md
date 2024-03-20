@@ -29,109 +29,52 @@ content = """
 <html>
 <head>
 <title>
-Top Companies List
+Top five Revenue generating Software Companies.
 </title>
 </head>
-<table align="center" border="4" cellspacing="5" cellpadding="10" height="100" width="800">
-<caption align="center"><B>Top Companies Lists</B></caption>
+<table border="2" cellspacing="5" cellpadding="10" height="100" width="800">
+<caption align="center"><B>Top five Revenue generating Software Companies</B></caption>
 <tr>
 <th align="center">Rank</th>
 <th align="center">Company</th>
-<th align="center">Country</th>
 <th align="center">Sales</th>
-<th align="center">Profits</th>
-<th align="center">Assets</th>
+<th align="center">HQ</th>
 <th align="center">Market Value</th>
 </tr>
 <tr>
-  <td align="center">41</td>
+  <td align="center">1</td>
   <td align="center">Microsoft</td>
-  <td align="center">United States</td>
-  <td align="center">$72.9 B</td>
-  <td align="center">$15.5 B</td>
-  <td align="center">$128.7 B</td>
-  <td align="center">$234.8 B</td>
+  <td align="center">198.3B$</td>
+  <td align="center">US</td>
+  <td align="center">1,780.0B$</td>
 </tr>
 <tr>
-  <td align="center">102</td>
+  <td align="center">2</td>
+  <td align="center">Google</td>
+  <td align="center">282.11B$</td>
+  <td align="center">US</td>
+  <td align="center">1195.0B$</td>
+</tr>
+<tr>
+  <td align="center">3</td>
+  <td align="center">IBM</td>
+  <td align="center">77.87B$</td>
+  <td align="center">US</td>
+  <td align="center">131.9B$</td>
+</tr>
+<tr>
+  <td align="center">4</td>
   <td align="center">Oracle</td>
-  <td align="center">United States</td>
-  <td align="center">$37.1 B</td>
-  <td align="center">$ 10.6 B</td>
-  <td align="center">$79.4 B</td>
-  <td align="center">$172 B</td>
+  <td align="center">39.6B$</td>
+  <td align="center">US</td>
+  <td align="center">240.51B$</td>
 </tr>
 <tr>
-  <td align="center">211</td>
+  <td align="center">5</td>
   <td align="center">SAP</td>
+  <td align="center">29.1B$</td>
   <td align="center">Germany</td>
-  <td align="center">$20.9 B</td>
-  <td align="center">$3.6 B</td>
-  <td align="center">$35.5 B</td>
-  <td align="center">$103.9 B</td>
-</tr>
-<tr>
-  <td align="center">718</td>
-  <td align="center">Symantee</td>
-  <td align="center">United States</td>
-  <td align="center">$6.8 B</td>
-  <td align="center">$1.1 B</td>
-  <td align="center">$1.4 B</td>
-  <td align="center">$16.9 B</td>
-</tr>
-<tr>
-  <td align="center">993</td>
-  <td align="center">CA</td>
-  <td align="center">United States</td>
-  <td align="center">$4.7 B</td>
-  <td align="center">$0.9 B</td>
-  <td align="center">$11.6 B</td>
-  <td align="center">$11.6 B</td>
-</tr>
-<tr>
-  <td align="center">879</td>
-  <td align="center">VMware</td>
-  <td align="center">United States</td>
-  <td align="center">$4.6 B</td>
-  <td align="center">$0.7 B</td>
-  <td align="center">$10.6 B</td>
-  <td align="center">$35.9 B</td>
-</tr>
-<tr>
-  <td align="center">1237</td>
-  <td align="center">Fiserv</td>
-  <td align="center">United States</td>
-  <td align="center">$4.5 B</td>
-  <td align="center">$0.6 B</td>
-  <td align="center">$8.5 B</td>
-  <td align="center">$11.4 B</td>
-</tr>
-<tr>
-  <td align="center">995</td>
-  <td align="center">Adobe Systems</td>
-  <td align="center">United States</td>
-  <td align="center">$4.4 B</td>
-  <td align="center">$0.7 B</td>
-  <td align="center">$10.2 B</td>
-  <td align="center">$20.6 B</td>
-</tr>
-<tr>
-  <td align="center">1099</td>
-  <td align="center">Intuit</td>
-  <td align="center">United States</td>
-  <td align="center">$4.2 B</td>
-  <td align="center">$0.8 B</td>
-  <td align="center">$5.1 B</td>
-  <td align="center">$19.4 B</td>
-</tr>
-<tr>
-  <td align="center">1534</td>
-  <td align="center">HCL Technologies</td>
-  <td align="center">India</td>
-  <td align="center">$3.8 B</td>
-  <td align="center">$0.4 B</td>
-  <td align="center">$3.2 B</td>
-  <td align="center">$10.2 b</td>
+  <td align="center">132.01B$</td>
 </tr>
 </table>
 """
@@ -146,13 +89,14 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
+
 ```
 
 ## OUTPUT:
 
-![alt text](<company list.png>)
+![alt text](<Screenshot 2024-03-20 094140.png>)
 
-![alt text](terminal.png)
+![alt text](<Screenshot 2024-03-20 094215.png>)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
